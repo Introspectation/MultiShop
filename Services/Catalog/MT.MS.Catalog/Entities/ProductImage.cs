@@ -7,11 +7,11 @@ namespace MT.MS.Catalog.Entities
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string ProductImageID { get; set; }
+        public string ProductImageId { get; set; }
 
         public List<string> ImageUrls { get; set; }
 
-        public string ProductID { get; set; }
+        public string ProductId { get; set; }
 
         [BsonIgnore]
         public Product Product { get; set; }

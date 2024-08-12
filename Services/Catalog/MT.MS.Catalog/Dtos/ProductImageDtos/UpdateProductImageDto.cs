@@ -2,8 +2,8 @@
 {
     public class UpdateProductImageDto
     {
-        public string ProductImageID { get; set; }
+        public string ProductImageId { get; set; }
         public List<string> ImageUrls { get; set; }
-        public string ProductID { get; set; }
+        public string ProductId { get; set; }
     }
 }
