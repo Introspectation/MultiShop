@@ -1,0 +1,6 @@
+@MT.MS.Catalog_HostAddress = http://localhost:5104
+
+GET {{MT.MS.Catalog_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
